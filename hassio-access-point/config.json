@@ -31,6 +31,7 @@
     "debug": 0,
     "hostapd_config_override": [],
     "client_internet_access": "0",
+    "client_internet_access_interface": "eth0",
     "client_dns_override": [],
     "dnsmasq_config_override": []
   },
@@ -51,6 +52,7 @@
     "debug": "int",
     "hostapd_config_override": ["str"],
     "client_internet_access": "int",
+    "client_internet_access_interface": "str",
     "client_dns_override": ["str"],
     "dnsmasq_config_override": ["str"]
   }
