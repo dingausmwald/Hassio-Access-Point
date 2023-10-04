@@ -5,7 +5,7 @@
   "description": "Create a WiFi access point to directly connect devices to Home Assistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/mattlongman/hassio-access-point",
-  "startup": "system",
+  "startup": "application",
   "boot": "auto",
   "host_network": true,
   "apparmor": true,
